@@ -6,6 +6,14 @@
 // triangle(6) ➞ 21
 // triangle(215) ➞ 23220
 
-void main() {
+int triangle(int start){
+  int number = 0;
+  for(int i = 0; i< start+1; i++){
+    number = number + i;
+  }
+  return number;
+}
 
+void main() {
+ print(triangle(6));
 }
